@@ -57,8 +57,8 @@ jobs:
       run: mvn -B verify --file pom.xml
 
     - run: ls ${GITHUB_WORKSPACE}/target/*.jar
-    
-  verify-and-package:
+
+   verify-and-package:
 
     needs: build
 
@@ -92,7 +92,7 @@ jobs:
 
           registry: ghcr.io
 
-          username: "yourGitHubUsername"
+          username: "JaviQuintana56"
 
           password: ${{ secrets.PAT }}
 
@@ -108,5 +108,4 @@ jobs:
 
           push: true
 
-          tags: ghcr.io/yourGitHubUsername/tos:latest  
-    
+          tags: ghcr.io/JaviQuintana56/tos:latest  
