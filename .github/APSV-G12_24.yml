@@ -92,7 +92,7 @@ jobs:
 
          registry: ghcr.io
 
-         username: "JaviQuintana56"
+         username: "javiquintana56"
 
          password: ${{ secrets.PAT }}
 
@@ -108,4 +108,4 @@ jobs:
 
          push: true
 
-         tags: ghcr.io/JaviQuintana56/tos:latest  
+         tags: ghcr.io/javiquintana56/tos:latest  
